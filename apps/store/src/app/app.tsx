@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './app.module.scss';
+import './app.scss';
 import { getAllGames } from '../fake-api';
 import {
   Card,
