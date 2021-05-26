@@ -1,1 +1,1 @@
-export * from './lib/store-ui-shared';
+export * from './lib/header/header';

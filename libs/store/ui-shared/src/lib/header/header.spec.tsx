@@ -1,11 +1,11 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import StoreUiShared from './store-ui-shared';
+import Header from './header';
 
-describe('StoreUiShared', () => {
+describe('Header', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<StoreUiShared />);
+    const { baseElement } = render(<Header />);
     expect(baseElement).toBeTruthy();
   });
 });

@@ -1,4 +1,4 @@
-.games-layout {
+.games_layout {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
@@ -9,28 +9,28 @@
   margin: 50px auto;
 }
 
-.game-card {
+.game_card {
   max-width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
-  .game-rating {
+  .game_rating {
     padding-top: 10px;
   }
 }
 
-.center-content {
+.center_content {
   display: flex;
   justify-content: center;
 }
 
-.game-details {
+.game_details {
   display: flex;
   flex-direction: column;
   margin: 0;
 }
 
-.game-card-media {
+.game_card_media {
   height: 140px;
 }
